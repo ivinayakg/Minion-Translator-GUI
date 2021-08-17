@@ -4,6 +4,10 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+:root {
+  --primary: #ffff1e;
+  --secondary: #0a0a0a;
+}
 
 .section {
   padding: 2rem;
@@ -24,6 +28,17 @@ textarea {
 }
 
 #btn {
-  padding: 0.5rem;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   margin: 1rem;
+  background-color: var(--primary);
+  color: #0a0a0a;
+  border: none;
+}
+
+.header,
+.footer {
+  background-color: var(--primary);
+  color: var(--secondary);
 }
